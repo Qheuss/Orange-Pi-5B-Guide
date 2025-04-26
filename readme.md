@@ -149,4 +149,4 @@ With Armbian now running from eMMC, you can set up:
 - [SFTP for file sharing](ssh-sftp.md)
 - [Docker for containerized applications](docker.md)
 - [Minecraft server](minecraft-server.md)
-- [And anything you want :)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+- <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">And anything you want :)</a>

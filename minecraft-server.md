@@ -244,3 +244,5 @@ rm -f ~/minecraft_server/1.21.5_server/world/session.lock
 mkdir -p ~/minecraft_backups
 tar -czf ~/minecraft_backups/minecraft_$(date +%Y%m%d).tar.gz -C ~/minecraft_server 1.21.5_server
 ```
+
+#### [Go back](readme.md#whats-next)
