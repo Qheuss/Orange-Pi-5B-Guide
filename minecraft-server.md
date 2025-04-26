@@ -74,11 +74,14 @@ wget https://cdn.modrinth.com/data/uXXizFIs/versions/CtMpt7Jr/ferritecore-8.0.0-
 # Krypton - networking optimization
 wget https://cdn.modrinth.com/data/fQEb0iXm/versions/neW85eWt/krypton-0.2.9.jar
 
-# Concurrent Chunk Management Engine - chunk loading improvements
+# Concurrent Chunk Management Engine (C2ME) - chunk loading improvements
 wget https://cdn.modrinth.com/data/VSNURh3q/versions/eL3rprSq/c2me-fabric-mc1.21.5-0.3.2.0.0.jar
 
 # Very Many Players - high playercount optimisation
 wget https://cdn.modrinth.com/data/wnEe9KBa/versions/EKg6v67t/vmp-fabric-mc1.21.5-0.2.0%2Bbeta.7.198-all.jar
+
+# ServerCore - server optimizations
+wget https://cdn.modrinth.com/data/4WWQxlQP/versions/VK0kd4wj/servercore-fabric-1.5.10%2B1.21.5.jar
 
 cd ..
 ```
@@ -191,8 +194,8 @@ screen -r minecraft
 ### Server Properties Optimization
 
 - Reduce `view-distance` and `simulation-distance` for better performance
-- Use `entity-broadcast-range-percentage=50` to reduce entity updates
-- Set `network-compression-threshold=256` for better network performance
+- Use `entity-broadcast-range-percentage=50` to reduce entity updates (percentage based on view distance)
+- change `max-tick-time` value to -1 to make the server never crash because of long ticks
 
 ### Memory Management
 
