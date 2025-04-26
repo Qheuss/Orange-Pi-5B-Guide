@@ -126,4 +126,4 @@ sudo dhclient end1
 sudo journalctl -u systemd-networkd
 ```
 
-#### [Go back](readme.md#whats-next)
+#### [Go back](readme.md)

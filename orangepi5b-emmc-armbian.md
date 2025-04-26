@@ -141,4 +141,4 @@ If the system doesn't boot from eMMC:
 3. Check the boot configuration and fstab on the eMMC
 4. Ensure the device tree file is correct for Orange Pi 5B
 
-#### [Go back](readme.md#whats-next)
+#### [Go back](readme.md)

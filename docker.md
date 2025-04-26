@@ -1,1 +1,1 @@
-#### [Go back](readme.md#whats-next)
+#### [Go back](readme.md)

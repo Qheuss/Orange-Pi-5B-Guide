@@ -93,4 +93,4 @@ You should now be able to log in **without entering a password** (unless you set
 
 This will ensure that only SSH keys can be used to authenticate, providing stronger security.
 
-#### [Go back](readme.md#whats-next)
+#### [Go back](readme.md)
