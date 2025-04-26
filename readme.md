@@ -145,7 +145,8 @@ If the system doesn't boot from eMMC:
 
 With Armbian now running from eMMC, you can set up:
 
-- Samba/NFS for file sharing
-- Docker for containerized applications
-- Minecraft server
-- Or anything you want :)
+- [Static IP](static-ip.md)
+- [SFTP for file sharing](ssh-sftp.md)
+- [Docker for containerized applications](docker.md)
+- [Minecraft server](minecraft-server.md)
+- [And anything you want :)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
