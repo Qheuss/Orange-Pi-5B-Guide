@@ -1,8 +1,9 @@
-# Orange Pi 5B Armbian Installation Guide
+# Orange Pi 5B Installation Guide
 
 ### What you can do with this guide:
 
-- [Orange Pi 5B eMMC installation](orangepi5b-emmc-armbian.md)
+- [Orange Pi 5B Armbian eMMC installation](orangepi5b-emmc-armbian.md)
+- [Orange Pi 5B Ubuntu eMMC installation (not my video)](https://www.youtube.com/watch?v=5q_tytwmseg)
 - [Static IP setup](static-ip.md)
 - [SFTP for file sharing](ssh-sftp.md)
 - [Minecraft server](minecraft-server.md)
