@@ -199,6 +199,7 @@ screen -r minecraft
 - For 16GB RAM systems, allocate 4-10GB to Minecraft
 - For 8GB RAM systems, allocate 4-6GB to Minecraft
 - Never allocate more than 12GB as it can worsen GC behavior
+- Always leave at least 1–2 GB free for your operating system
 
 ## Troubleshooting
 
