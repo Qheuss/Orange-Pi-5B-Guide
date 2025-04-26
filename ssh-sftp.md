@@ -1,6 +1,6 @@
-# SSH Key Setup for Armbian NAS with FileZilla
+# SSH Key Setup for Armbian with FileZilla
 
-This document outlines the steps taken to securely connect to your Armbian NAS using SSH keys for SFTP access.
+This document outlines the steps taken to securely connect to your Armbian device using SSH keys for SFTP access.
 
 ### 1. Generate SSH Key on Windows
 

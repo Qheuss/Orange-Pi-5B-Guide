@@ -1,10 +1,10 @@
-# Orange Pi 5B Static IP Configuration Guide
+# Armbian Static IP Configuration Guide
 
-This guide provides instructions for configuring a static IP address on your Orange Pi 5B running Armbian.
+This guide provides instructions for configuring a static IP address on your device running Armbian.
 
 ## Prerequisites
 
-- Orange Pi 5B running Armbian
+- Armbian running
 - Administrative access (sudo privileges)
 - Knowledge of your network settings (gateway, subnet)
 
@@ -107,7 +107,7 @@ ip addr show
 
 ### If you lose network connectivity:
 
-Connect a monitor and keyboard to your Orange Pi and:
+Connect a monitor and keyboard to your device and:
 
 1. Check your configuration file for typos
 2. Verify that the gateway IP is correct

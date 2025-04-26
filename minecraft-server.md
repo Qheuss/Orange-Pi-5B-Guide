@@ -1,10 +1,10 @@
-# Fabric Minecraft Server Setup Guide for Orange Pi 5B
+# Fabric Minecraft Server Setup Guide
 
-This guide provides detailed instructions for setting up an optimized Fabric Minecraft server (version 1.21.5) on an Orange Pi 5B.
+This guide provides detailed instructions for setting up an optimized Fabric Minecraft server (version 1.21.5) on an Armbian.
 
 ## Prerequisites
 
-- Orange Pi 5B with Armbian installed on eMMC
+- Armbian running
 - At least 4GB of RAM (8GB+ recommended)
 
 ## Step 1: Install Java 21
@@ -147,9 +147,9 @@ screen -r minecraft
 
 1. Set up port forwarding on your router:
 
-   - Forward TCP/UDP port 25565 to your Orange Pi's local IP (192.168.1.60)
+   - Forward TCP/UDP port 25565 to your device local IP (192.168.1.60)
 
-2. Set up port forwarding on your Orange Pi
+2. Set up port forwarding
 
    ```bash
    sudo apt install ufw  # if not already installed
@@ -163,7 +163,7 @@ screen -r minecraft
 3. Set up a dynamic DNS service like No-IP (if you need one, otherwise you can skip this):
    - Create an account at noip.com
    - Create a hostname (e.g., yourserver.ddns.net)
-   - Install the DUC (Dynamic Update Client) on your Orange Pi:
+   - Install the DUC (Dynamic Update Client):
    ```bash
    cd ~
    wget https://www.noip.com/client/linux/noip-duc-linux.tar.gz
@@ -196,7 +196,7 @@ screen -r minecraft
 
 ### Memory Management
 
-- For 16GB RAM systems, allocate 8-10GB to Minecraft
+- For 16GB RAM systems, allocate 4-10GB to Minecraft
 - For 8GB RAM systems, allocate 4-6GB to Minecraft
 - Never allocate more than 12GB as it can worsen GC behavior
 
